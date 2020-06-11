@@ -1,0 +1,80 @@
+{
+  "build": {
+    "content": [
+      {
+        "group": "2019",
+        "src": "./2019",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md",
+          "2020/**"
+        ]
+      },
+      {
+        "group": "2020",
+        "src": "./2020",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md",
+          "2019/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ]
+      }
+    ],
+    "groups": {
+      "2019": {
+        "moniker_range": "eason-2019"
+      },
+      "2020": {
+        "moniker_range": "eason-2020"
+      }
+    },
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [],
+    "dest": "ppe-testdocs-20200430",
+    "markdownEngineName": "markdig"
+  }
+}
