@@ -63,10 +63,10 @@
     ],
     "groups": {
       "2019": {
-        "moniker_range": "eason-2019"
+        "moniker_range": "netcore-1.0"
       },
       "2020": {
-        "moniker_range": "eason-2020"
+        "moniker_range": "netcore-2.0"
       }
     },
     "overwrite": [],

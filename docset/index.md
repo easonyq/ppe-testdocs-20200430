@@ -2,6 +2,6 @@
 
 Hello everyone~~
 
-[To Sub1](./folder/sub1.md)
+[To Sub1](./2019/sub1.md)
 
-[To Sub1 Part1](./folder/sub1.md#Part1)
+[To Sub1 Part1](./2019/sub1.md#part1)
