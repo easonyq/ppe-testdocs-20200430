@@ -2,9 +2,9 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "ppe-testdocs-20200430",
-      "build_source_folder": "ppe-testdocs-20200430",
-      "build_output_subfolder": "ppe-testdocs-20200430",
+      "docset_name": "docset",
+      "build_source_folder": "docset",
+      "build_output_subfolder": "docset",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
