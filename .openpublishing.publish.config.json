@@ -2,7 +2,7 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "docset",
+      "docset_name": "ppe-testdocs-20200430",
       "build_source_folder": "docset",
       "build_output_subfolder": "docset",
       "locale": "en-us",
@@ -30,5 +30,8 @@
     }
   ],
   "need_generate_pdf_url_template": false,
-  "need_generate_pdf": true
+  "need_generate_pdf": true,
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }

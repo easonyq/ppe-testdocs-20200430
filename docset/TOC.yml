@@ -1,6 +1,0 @@
-- name: Index
-  href: index.md
-- name: Sub
-  items:
-    - name: Sub1
-      href: folder/sub1.md
